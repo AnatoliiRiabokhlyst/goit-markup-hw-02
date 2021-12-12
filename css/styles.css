@@ -1,4 +1,14 @@
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  color: #212121;
+}
+li {
+  list-style-type: none;
+}
 /* header */
+.header {
+  background-color: #ffffff;
+}
 .logo {
   color: #000000;
 }
@@ -17,5 +27,15 @@
 }
 .header-address:hover,
 .header-address:focus {
+  color: #2196f3;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.logo-footer {
+  color: #ffffff;
+}
+.logo-footer .logo-web {
   color: #2196f3;
 }
