@@ -3,6 +3,7 @@ body {
   font-family: "Roboto", sans-serif;
   color: #212121;
   background-color: #ffffff;
+  letter-spacing: 0.03em;
 }
 .list {
   list-style: none;
@@ -35,12 +36,14 @@ body {
 }
 .header-item {
   font-weight: 500;
+  letter-spacing: 0.02em;
 }
 /* hero */
 .hero {
   text-align: center;
   color: #ffffff;
   background-color: #2f303a;
+  letter-spacing: 0.06em;
 }
 .hero-title {
   font-weight: 900;
@@ -53,8 +56,10 @@ body {
   line-height: 1.87;
   color: #ffffff;
   background-color: #2196f3;
+  letter-spacing: 0.06em;
 }
 /* advantage */
+
 .advatage-after-title {
   color: #757575;
   line-height: 1.71;
@@ -128,6 +133,7 @@ body {
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
+  letter-spacing: 0.06em;
 }
 .portfolio-after-title {
   font-size: 16px;
