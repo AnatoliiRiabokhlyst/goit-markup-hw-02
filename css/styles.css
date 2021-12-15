@@ -1,7 +1,136 @@
 body {
+  font-size: 14px;
   font-family: "Roboto", sans-serif;
   color: #212121;
+  background-color: #ffffff;
 }
 .list {
   list-style: none;
+}
+/* index.html */
+/* header */
+.link {
+  color: #212121;
+  text-decoration: none;
+}
+.link:hover,
+.link:focus {
+  color: #2196f3;
+}
+.highlighted {
+  color: #2196f3;
+}
+.header-logo {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.header-logo-web {
+  color: #2196f3;
+}
+.header-mail,
+.header-tel {
+  color: #757575;
+}
+.header-item {
+  font-weight: 500;
+}
+/* hero */
+.hero {
+  text-align: center;
+  color: #ffffff;
+  background-color: #2f303a;
+}
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+}
+.hero-btn {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  color: #ffffff;
+  background-color: #2196f3;
+}
+/* advantage */
+.advatage-after-title {
+  color: #757575;
+  line-height: 1.71;
+}
+/* about */
+.about-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+/* team */
+.team {
+  background-color: #f5f4fa;
+}
+.team-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.2;
+  text-align: center;
+}
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.2;
+}
+.team-post {
+  font-size: 16px;
+  line-height: 1.2;
+  color: #757575;
+}
+/* footer */
+.footer {
+  background-color: #2f303a;
+}
+.footer-logo {
+  color: #ffffff;
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.2;
+}
+.footer-logo-web {
+  color: #2196f3;
+}
+.address-link {
+  color: #ffffff;
+  font-style: normal;
+}
+.footer-mail,
+.footer-tel {
+  color: rgba(255, 255, 255, 0.6);
+  font-style: normal;
+}
+/* portfolio.html */
+.portfolio-btn {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+}
+.portfolio-btn:hover,
+.portfolio-btn:focus {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.portfolio-highlighted {
+  color: #ffffff;
+  background-color: #2196f3;
+}
+.portfolio-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+}
+.portfolio-after-title {
+  font-size: 16px;
+  line-height: 30px;
+  color: #757575;
 }
